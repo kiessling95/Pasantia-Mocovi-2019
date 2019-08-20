@@ -9,11 +9,11 @@ INSERT INTO apex_fuente_datos (proyecto, fuente_datos, descripcion, descripcion_
 	'mocovi', --descripcion_corta
 	'postgres7', --fuente_datos_motor
 	NULL, --host
-	NULL, --punto_montaje
+	'1001000002', --punto_montaje
 	NULL, --subclase_archivo
 	NULL, --subclase_nombre
 	NULL, --orden
-	NULL, --schema
+	'public', --schema
 	'mocovi', --instancia_id
 	NULL, --administrador
 	'1', --link_instancia
