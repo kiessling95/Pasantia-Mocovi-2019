@@ -65,14 +65,14 @@ INSERT INTO apex_objeto_datos_rel (proyecto, objeto, debug, clave, ap, punto_mon
 --- INICIO Grupo de desarrollo 1001
 INSERT INTO apex_objeto_dependencias (proyecto, dep_id, objeto_consumidor, objeto_proveedor, identificador, parametros_a, parametros_b, parametros_c, inicializar, orden) VALUES (
 	'mocovi', --proyecto
-	'1001000039', --dep_id
+	'1001000048', --dep_id
 	'1001000060', --objeto_consumidor
-	'1001000058', --objeto_proveedor
-	'convocatoria', --identificador
+	'1001000083', --objeto_proveedor
+	'bases_convocatoria', --identificador
 	'1', --parametros_a
 	'1', --parametros_b
 	NULL, --parametros_c
 	NULL, --inicializar
-	'1'  --orden
+	NULL  --orden
 );
 --- FIN Grupo de desarrollo 1001
