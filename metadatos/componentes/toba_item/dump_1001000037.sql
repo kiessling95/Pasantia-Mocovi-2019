@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---[1001000037]--  Formulario 
+--[1001000037]--  Proyectos de Extensión 
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -23,7 +23,7 @@ INSERT INTO apex_item (item_id, proyecto, item, padre_id, padre_proyecto, padre,
 	NULL, --actividad_buffer
 	NULL, --actividad_patron_proyecto
 	NULL, --actividad_patron
-	'Formulario', --nombre
+	'Proyectos de Extensión', --nombre
 	NULL, --descripcion
 	NULL, --punto_montaje
 	NULL, --actividad_accion

@@ -16,7 +16,9 @@ class dt_bases_convocatoria extends mocovi_datos_tabla
 			t_bc.evaluacion,
 			t_bc.adjudicacion,
 			t_bc.consulta,
-			t_bc.bases_titulo
+			t_bc.bases_titulo,
+			t_bc.ordenanza,
+			t_bc.tipo_convocatoria
 		FROM
 			bases_convocatoria as t_bc
 		ORDER BY convocatoria";

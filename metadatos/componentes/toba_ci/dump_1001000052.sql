@@ -203,7 +203,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	NULL, --subclase_archivo
 	NULL, --template
 	NULL, --template_impresion
-	NULL  --punto_montaje
+	'1001000002'  --punto_montaje
 );
 --- FIN Grupo de desarrollo 1001
 
@@ -228,7 +228,7 @@ INSERT INTO apex_objetos_pantalla (proyecto, pantalla, objeto_ci, orden, dep_id)
 	'mocovi', --proyecto
 	'1001000018', --pantalla
 	'1001000052', --objeto_ci
-	'0', --orden
+	'1', --orden
 	'1001000041'  --dep_id
 );
 
