@@ -114,10 +114,34 @@ INSERT INTO apex_objeto_mt_me (objeto_mt_me_proyecto, objeto_mt_me, ev_procesar_
 --- INICIO Grupo de desarrollo 1001
 INSERT INTO apex_objeto_dependencias (proyecto, dep_id, objeto_consumidor, objeto_proveedor, identificador, parametros_a, parametros_b, parametros_c, inicializar, orden) VALUES (
 	'mocovi', --proyecto
+	'1001000068', --dep_id
+	'1001000086', --objeto_consumidor
+	'1001000109', --objeto_proveedor
+	'cuadro', --identificador
+	NULL, --parametros_a
+	NULL, --parametros_b
+	NULL, --parametros_c
+	NULL, --inicializar
+	NULL  --orden
+);
+INSERT INTO apex_objeto_dependencias (proyecto, dep_id, objeto_consumidor, objeto_proveedor, identificador, parametros_a, parametros_b, parametros_c, inicializar, orden) VALUES (
+	'mocovi', --proyecto
 	'1001000050', --dep_id
 	'1001000086', --objeto_consumidor
 	'1001000087', --objeto_proveedor
 	'datos', --identificador
+	NULL, --parametros_a
+	NULL, --parametros_b
+	NULL, --parametros_c
+	NULL, --inicializar
+	NULL  --orden
+);
+INSERT INTO apex_objeto_dependencias (proyecto, dep_id, objeto_consumidor, objeto_proveedor, identificador, parametros_a, parametros_b, parametros_c, inicializar, orden) VALUES (
+	'mocovi', --proyecto
+	'1001000069', --dep_id
+	'1001000086', --objeto_consumidor
+	'1001000110', --objeto_proveedor
+	'filtro', --identificador
 	NULL, --parametros_a
 	NULL, --parametros_b
 	NULL, --parametros_c
@@ -256,7 +280,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000031', --pantalla
 	'pant_idProy', --identificador
-	'1', --orden
+	'2', --orden
 	'Identificación del proyecto', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -275,7 +299,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000032', --pantalla
 	'pant_diag', --identificador
-	'2', --orden
+	'3', --orden
 	'Diagnostico de la situacion', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -294,7 +318,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000033', --pantalla
 	'pant_fundamentacion', --identificador
-	'3', --orden
+	'4', --orden
 	'Fundamentación', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -313,7 +337,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000034', --pantalla
 	'pant_obj', --identificador
-	'4', --orden
+	'5', --orden
 	'Objetivos generales y especificos, metas', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -332,7 +356,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000035', --pantalla
 	'pant_marcoTeorico', --identificador
-	'5', --orden
+	'6', --orden
 	'Marco teorico', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -351,7 +375,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000036', --pantalla
 	'pant_metodologia', --identificador
-	'6', --orden
+	'7', --orden
 	'Metodologia', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -370,7 +394,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000037', --pantalla
 	'pant_impacto', --identificador
-	'7', --orden
+	'8', --orden
 	'Impacto', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -389,7 +413,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000038', --pantalla
 	'pant_planAct', --identificador
-	'8', --orden
+	'9', --orden
 	'Plan de actividades', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -408,7 +432,7 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000039', --pantalla
 	'pant_personal', --identificador
-	'9', --orden
+	'10', --orden
 	'Personal afectado al proyecto', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
@@ -427,8 +451,27 @@ INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, id
 	'1001000086', --objeto_ci
 	'1001000040', --pantalla
 	'pant_presupuesto', --identificador
-	'10', --orden
+	'11', --orden
 	'Presupuesto y equipamiento', --etiqueta
+	NULL, --descripcion
+	NULL, --tip
+	'apex', --imagen_recurso_origen
+	NULL, --imagen
+	NULL, --objetos
+	NULL, --eventos
+	NULL, --subclase
+	NULL, --subclase_archivo
+	NULL, --template
+	NULL, --template_impresion
+	'1001000002'  --punto_montaje
+);
+INSERT INTO apex_objeto_ci_pantalla (objeto_ci_proyecto, objeto_ci, pantalla, identificador, orden, etiqueta, descripcion, tip, imagen_recurso_origen, imagen, objetos, eventos, subclase, subclase_archivo, template, template_impresion, punto_montaje) VALUES (
+	'mocovi', --objeto_ci_proyecto
+	'1001000086', --objeto_ci
+	'1001000041', --pantalla
+	'pant_cuadro', --identificador
+	'1', --orden
+	'Pantalla cuadro', --etiqueta
 	NULL, --descripcion
 	NULL, --tip
 	'apex', --imagen_recurso_origen
@@ -515,4 +558,18 @@ INSERT INTO apex_objetos_pantalla (proyecto, pantalla, objeto_ci, orden, dep_id)
 	'1001000086', --objeto_ci
 	'0', --orden
 	'1001000067'  --dep_id
+);
+INSERT INTO apex_objetos_pantalla (proyecto, pantalla, objeto_ci, orden, dep_id) VALUES (
+	'mocovi', --proyecto
+	'1001000041', --pantalla
+	'1001000086', --objeto_ci
+	'1', --orden
+	'1001000068'  --dep_id
+);
+INSERT INTO apex_objetos_pantalla (proyecto, pantalla, objeto_ci, orden, dep_id) VALUES (
+	'mocovi', --proyecto
+	'1001000041', --pantalla
+	'1001000086', --objeto_ci
+	'0', --orden
+	'1001000069'  --dep_id
 );
