@@ -1,6 +1,8 @@
 <?php
-class ci_form_conv extends abm_ci
-{
-	protected $nombre_tabla = 'form_pextension';
+class ci_form_conv extends mocovi_ci {
+
+	function evt__nuevo($datos) {
+		$this->set_pantalla('pant_edicion');
+	}
 }
 ?>
